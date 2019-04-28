@@ -2,6 +2,8 @@
 #
 # Найдите сумму всех простых чисел меньше двух миллионов.
 
+# python 3.7.3
+
 
 def is_simple(n):
     i = 2
@@ -14,8 +16,8 @@ def is_simple(n):
 
 prime_numbers = []
 
-for i in range(1, 2000000):
-    if is_simple(i):
-        prime_numbers.append(i)
+for x in range(1, 2000000):
+    if is_simple(x):
+        prime_numbers.append(x)
 
 print(f'Сумма всех простых чисел до 2000000 равна: {sum(prime_numbers)}')

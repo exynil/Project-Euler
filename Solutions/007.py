@@ -2,6 +2,8 @@
 #
 # Какое число является 10001-ым простым числом?
 
+# python 3.7.3
+
 
 from itertools import count
 
